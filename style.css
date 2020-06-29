@@ -1,9 +1,21 @@
-
 body {
-background-color: blueviolet
+  background-color: blueviolet;
 }
 #page-title {
-color: tomato
+  color: tomato;
+}
+#button-1 {
+  background-color: aquamarine;
+  text-decoration: darkmagenta;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#button-1:hover {
+  background-color: forestgreen;
+  text-decoration: darkmagenta;
+  cursor: pointer;
 }
 
-
+#hiddenMessage {
+  text-decoration-color: ghostwhite;
+}

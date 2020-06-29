@@ -1,15 +1,18 @@
-let title = document.getElementById('page-title');
+let title = document.getElementById("page-title");
 
-const generateRandomIndex = () => 
-    Math.floor(Math.random() * titleArray.length);
+const generateRandomIndex = () => Math.floor(Math.random() * titleArray.length);
 
 const selectTitle = () => titleArray[generateRandomIndex()];
 
-const titleArray = [    
-        "Leave now", 
-        "OK, you can stay... for a while", 
-        "Who do you think you are?", 
-        "It is dangerous here"
-     ];
-title.innerHTML = selectTitle()
+const titleArray = [
+  "Leave now",
+  "OK, you can stay... for a while",
+  "This land is cursed",
+  "It is dangerous here",
+];
+title.innerHTML = selectTitle();
+button.innerHTML = button1Click();
 
+const revealMessage = () => {
+  document.getElementById("hiddenMessage").style.display = "block";
+};
