@@ -11,7 +11,6 @@ const titleArray = [
   "It is dangerous here",
 ];
 title.innerHTML = selectTitle();
-button.innerHTML = button1Click();
 
 const revealMessage = () => {
   document.getElementById("hiddenMessage").style.display = "block";
